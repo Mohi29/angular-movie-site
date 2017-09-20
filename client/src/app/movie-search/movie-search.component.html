@@ -1,0 +1,12 @@
+
+<app-navbar></app-navbar>
+
+<div  style="margin-top: 50px">
+ <form class="form-inline my-2 my-lg-0">
+    
+  <input class="form-control mr-sm-2" type="text" [(ngModel)]="movie" name="first">
+  <button class="btn btn-outline-success my-2 my-sm-0" (click)="movieSearch()"> Search</button>
+  </form>
+</div>
+
+<app-movie-list   [user]="movie"></app-movie-list>

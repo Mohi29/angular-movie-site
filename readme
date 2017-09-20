@@ -1,0 +1,17 @@
+project-
+It is a project based on Movie in expressjs with angular with mongoose db along with passport and route guard.
+
+project desc:
+
+It contains server and client folder.
+package.json as conf file for bot server and client respectevely.
+server contains express and client contain angular framework.
+node_module have require node modules as per need in this project.
+test folder have a testing file in which testing logic is present.
+
+
+Requirement:
+nodejs, expressjs, angularjs, mongoose, passport, auth guard and npm packages
+
+Testing tool:
+chai, mocha, istanbul, supertest and sinon
